@@ -1,5 +1,16 @@
 package com.eficode.objectOriented.childParentClass
 
+/**
+ *
+ * Conclusions:
+ *
+ * A class extending another still shares the same static variables, IE child.StaticVar == parent.StaticVar
+ *
+ * A child using super on overridden methods, needs to test carefully :p
+ *
+ *
+ */
+
 Parent parent = new Parent()
 Child child = new Child()
 
